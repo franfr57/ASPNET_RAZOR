@@ -1,0 +1,107 @@
+﻿@page
+@model RazorPagesMovie.ExempleModel
+@{
+    ViewData["Title"] = "Exemple";
+}
+
+    <style type="text/css">
+body {
+  background-color:#bbb;
+  color:#048;      
+  font-size: 12px;
+  line-height: 16px;
+}
+a { 
+  color: #028; 
+}
+footer { 
+  text-align:center; 
+}
+nav {
+  background-color:#bcd;
+  border-radius: 8px;
+  padding: 0 !important;
+  border: 1px solid #ddd;
+}
+section { 
+  padding-right: 0 !important; 
+}
+.panel {
+  background-color: #bcd;
+  border-radius: 8px;
+  padding-bottom: 5px;
+}
+h1 {
+  text-shadow: 4px 4px 5px #777;
+  color: #449;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #cde; 
+}
+.panel-default > .panel-heading, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #048;
+  background-color: #abc;
+  border-radius: 8px;
+}
+    </style>
+
+<h1>Exemple</h1>
+
+<div class="container">
+    <header class="row col-sm-12">
+        <div class="page-header">
+            <h1>Mon beau site<img src="images/papillon.png" class="pull-right"></h1>
+        </div>
+    </header>
+    <div class="row col-sm-12">
+        <nav class="col-sm-2">
+            <ul class="nav flex-column nav-pills nav-stacked" role="tablist">
+                <li class="active"> <a class="nav-link active" href="#"> <span class="fa fa-home"></span> Accueil </a> </li>
+                <li> <a class="nav-link" href="#"> <span class="fa fa-book"></span> Livres </a> </li>
+                <li> <a class="nav-link" href="#"> <span class="fa fa-facetime-video"></span> Films </a> </li>
+                <li> <a class="nav-link" href="#"> <span class="fa fa-headphones"></span> Musiques </a> </li>
+            </ul>
+        </nav>
+        <section class="col-sm-10">
+            <div class="card card-default">
+                <div class="card-header">
+                    <h3 class="card-title">Bienvenue sur mon site !</h3>
+                </div>
+                <div class="card-body">
+                    <p>
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                        magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+                        aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    </p>
+                    <p>
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                        quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                        labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                        molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    </p>
+                    <p>
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                        quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                        labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                        nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="row col-sm-12">
+        <div class="card card-body">
+            <p>Tous droits réservés par moi...</p>
+        </div>
+    </footer>
+</div>

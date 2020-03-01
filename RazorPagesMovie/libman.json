@@ -10,11 +10,14 @@
       "provider": "jsdelivr",
       "library": "globalize@1.4.2",
       "destination": "wwwroot/lib/globalize/"
+    },
+    {
+      "library": "jquery-validation-globalize@0.1.1",
+      "destination": "wwwroot/lib/jquery-validation-globalize/"
+    },
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/lib/font-awesome/"
     }
-  ,
-{
-  "library": "jquery-validation-globalize@0.1.1",
-  "destination": "wwwroot/lib/jquery-validation-globalize/"
-}
-]
+  ]
 }
