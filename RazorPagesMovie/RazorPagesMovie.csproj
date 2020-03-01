@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\05539627-photo-archos-familypad.jpg" />
+    <None Include="wwwroot\images\blackberry-smartphone-icone-4966-96.png" />
+    <None Include="wwwroot\images\ico01.png" />
+    <None Include="wwwroot\images\ico02.png" />
+    <None Include="wwwroot\images\ico03.png" />
+    <None Include="wwwroot\images\ico04.png" />
+    <None Include="wwwroot\images\ico05.png" />
+    <None Include="wwwroot\images\img47.png" />
+    <None Include="wwwroot\images\img48.png" />
+    <None Include="wwwroot\images\img49.png" />
+    <None Include="wwwroot\images\ordinateur-moniteur-ecran-icone-4079-96.png" />
+    <None Include="wwwroot\images\ordinateur-ordinateur-portable-icone-3972-96.png" />
+    <None Include="wwwroot\images\papillon.png" />
+    <None Include="wwwroot\images\photo-tigre.jpg" />
+    <None Include="wwwroot\images\photo-tigre1.jpg" />
+    <None Include="wwwroot\images\photo-tigre2.jpg" />
+    <None Include="wwwroot\images\photo-tigre3.jpg" />
+    <None Include="wwwroot\images\t1.jpg" />
+    <None Include="wwwroot\images\t10.jpg" />
+    <None Include="wwwroot\images\t11.jpg" />
+    <None Include="wwwroot\images\t12.jpg" />
+    <None Include="wwwroot\images\t2.jpg" />
+    <None Include="wwwroot\images\t3.jpg" />
+    <None Include="wwwroot\images\t4.jpg" />
+    <None Include="wwwroot\images\t5.jpg" />
+    <None Include="wwwroot\images\t6.jpg" />
+    <None Include="wwwroot\images\t7.jpg" />
+    <None Include="wwwroot\images\t8.jpg" />
+    <None Include="wwwroot\images\t9.jpg" />
+    <None Include="wwwroot\images\visage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+
+
+</Project>
